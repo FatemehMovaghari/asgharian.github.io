@@ -1,0 +1,30 @@
+.sketchContainer{
+    width: 114%;
+    height: 80vh;
+    position: absolute;
+    right: 6%;
+    top: 11%;
+    display: flex;
+    border: 2px solid rgb(68, 72, 57);
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    rotate: rotateSpring;
+}
+@media  (max-width:425px) {
+    .sketchContainer {
+        width: 114%;
+        top: 16%;
+        height: 68vh;
+        right: 7%;
+    }
+  }
+  @media (min-width:600px) and (max-width:800px) {
+    .sketchContainer {
+        width: 100%;
+        top: 19%;
+        height: 63vh;
+        right: 20%;
+    }
+  }
+
