@@ -14,7 +14,7 @@ export default function Home() {
             <div className="p-4">
               <div className="logo-animate">
                 <Image
-                  src="/Logo.png"
+                  src="/LOGO.png"
                   alt="Logo"
                   width={100}
                   height={59}
